@@ -1,5 +1,6 @@
 package com.maggioni;
 
+import com.maggioni.*;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -16,7 +17,7 @@ import java.util.Set;
  * 
  * new line
  */
-public class HelloJUnit2 {
+public class HelloJUnit {
 
     private static final Map<Integer, Worker> workersById = new HashMap<>();
 
