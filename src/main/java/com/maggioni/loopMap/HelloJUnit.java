@@ -1,6 +1,5 @@
-package com.maggioni;
+package com.maggioni.loopMap;
 
-import com.maggioni.*;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
