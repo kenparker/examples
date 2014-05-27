@@ -1,14 +1,19 @@
 package com.maggioni.loopMap;
 
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+/*
+* http://java67.blogspot.de/2014/05/3-examples-to-loop-map-in-java-foreach.html
+*
+*/
+
 public class HelloLoopMap {
-   private static final Map<Integer, Worker> workersById = new HashMap<>();
+
+    private static final Map<Integer, Worker> workersById = new HashMap<>();
 
     public static void main(String args[]) {
 
@@ -26,7 +31,7 @@ public class HelloLoopMap {
 
         for (Map.Entry<Integer, Worker> entry : entrySet) {
             Worker worker = entry.getValue();
-            System.out.printf("%s :\t %d %n", worker.getName(),
+            System.out.printf("%d %s :\t %d %n", entry.getKey(), worker.getName(),
                     worker.getSalary());
         }
 
@@ -48,5 +53,5 @@ public class HelloLoopMap {
                     worker.getSalary());
         }
 
-    } 
+    }
 }

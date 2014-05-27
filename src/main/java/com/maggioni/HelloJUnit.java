@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * 
+ * http://java67.blogspot.de/2014/05/3-examples-to-loop-map-in-java-foreach.html
  * Java Program to loop through Map in Java. This examples shows three ways of
  * traversing through Map, foreach loop, Iterator with set of keys, entries and
  * values from Map.
