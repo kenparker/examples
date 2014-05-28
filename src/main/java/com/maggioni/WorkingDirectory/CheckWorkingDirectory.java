@@ -7,6 +7,8 @@ import java.nio.file.Paths;
 /**
  *
  * @author maggioni
+ * 
+ * http://stackoverflow.com/questions/4871051/getting-the-current-working-directory-in-java
  */
 public class CheckWorkingDirectory {
     
