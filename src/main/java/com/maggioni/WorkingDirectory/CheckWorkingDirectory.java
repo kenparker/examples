@@ -1,6 +1,7 @@
 
 package com.maggioni.WorkingDirectory;
 
+import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -23,6 +24,7 @@ public class CheckWorkingDirectory {
         // This will print a complete absolute path from where your application has initialized.
         String currentDir = System.getProperty("user.dir");
         System.out.println("The current Dir using user.dir is: " + currentDir);
+        System.out.println("Separator is: " + File.separator);
         String currentHome = System.getProperty("user.home");
         System.out.println("The current Home using user.home is: " + currentHome);
             }
