@@ -23,7 +23,7 @@ public class FormatFloatInJava {
         String str = String.format("%.02f", pi);
         System.out.println("formatted float up to 2 decimals " + str);
         System.out.println("formatted float up to 2 decimals " + String.format("%.2f", 1.9999)); // prints 2.00
-        System.out.println("formatted float up to 2 decimals " + String.format("%.2f", 2.00)); // prints 2.00
+        System.out.println("formatted float up to 2 decimals " + String.format("%.2f", 2.0000)); // prints 2.00
  
         // If you just want to display, you can combine above two by using printf()
         // syntax of formatting will remain same
