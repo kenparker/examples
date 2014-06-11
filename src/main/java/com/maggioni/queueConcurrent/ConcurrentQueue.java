@@ -1,4 +1,4 @@
-package com.maggioni.concurrentQueue;
+package com.maggioni.queueConcurrent;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 
