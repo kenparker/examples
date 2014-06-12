@@ -38,7 +38,7 @@ public class BufferedWriteToFile_1
 
   public static void main1() throws IOException
   {
-    String xFile = "C:/Users/maggioni/Java_Aufgaben/Test_WriterToFile.txt";
+    String xFile = "Test_WriterToFile.txt";
     File fileName = new File(xFile);
     BufferedReader rb = new BufferedReader(new InputStreamReader(System.in));
     BufferedWriter wb = new BufferedWriter(new FileWriter(fileName));
@@ -52,7 +52,7 @@ public class BufferedWriteToFile_1
   
   public static void main2() throws IOException
   {
-    String xFile = "C:/Users/maggioni/Java_Aufgaben/Test_WriterToFile.txt";
+    String xFile = "Test_WriterToFile.txt";
     File fileName = new File(xFile);
     BufferedReader rb = new BufferedReader(new FileReader(fileName));
     BufferedWriter wb = new BufferedWriter(new OutputStreamWriter(System.out));

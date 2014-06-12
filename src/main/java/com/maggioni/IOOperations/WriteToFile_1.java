@@ -42,7 +42,7 @@ public class WriteToFile_1
     // TODO code application logic here
     try
     {
-      String xFile = "C:/Users/maggioni/Java_Aufgaben/Test_WriterToFile.txt";
+      String xFile = "Test_WriterToFile.txt";
       File fileName = new File(xFile);
       Reader in = new InputStreamReader(System.in);
       Writer out = new FileWriter(fileName,false);
@@ -68,7 +68,7 @@ public class WriteToFile_1
     // TODO code application logic here
     try
     {
-      String xFile = "C:/Users/maggioni/Java_Aufgaben/Test_WriterToFile.txt";
+      String xFile = "Test_WriterToFile.txt";
       File fileName = new File(xFile);
 
 
