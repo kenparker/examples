@@ -1,4 +1,4 @@
-package com.maggioni.compareArrays;
+package com.maggioni.array.compare;
 
 import java.util.Arrays;
 
