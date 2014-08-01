@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
  *
  * @author magang
  */
-public class formatExample
+public class FormatExample
 {
 
     /**

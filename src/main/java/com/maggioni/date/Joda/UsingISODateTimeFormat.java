@@ -9,7 +9,7 @@ import org.joda.time.format.ISODateTimeFormat;
 /**
  * http://geekabyte.blogspot.nl/2014/07/common-date-time-operations-in-java.html
  */
-public class usingISODateTimeFormat
+public class UsingISODateTimeFormat
 {
 
     public static void main(String[] args)

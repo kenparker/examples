@@ -7,7 +7,7 @@ import org.joda.time.format.DateTimeFormatter;
 /**
  * 
  */
-public class parseJodaDateTimeFormat {
+public class ParseJodaDateTimeFormat {
     
 
     public static void main(String[] args) {
