@@ -35,5 +35,16 @@
             <version>14.0.1</version>
             <type>jar</type>
         </dependency>
+        <!-- to Reade/Write Excel Files -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.11-beta2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.11-beta2</version>
+        </dependency>
     </dependencies>
 </project>
