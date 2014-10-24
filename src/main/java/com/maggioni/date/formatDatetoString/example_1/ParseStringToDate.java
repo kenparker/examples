@@ -2,7 +2,6 @@ package com.maggioni.date.formatDatetoString.example_1;
 
 import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
